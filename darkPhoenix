@@ -1,0 +1,5 @@
+local args = {
+    [1] = "DarkPhoenixComics"
+}
+
+game:GetService("ReplicatedStorage").ChangePlayerCharacter:FireServer(unpack(args))
